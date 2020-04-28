@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header {
+    text-align: center;
+    background-image: url("/img/huntington.png");
+    /* background-size: 1200px;
+    margin: 0px; */
+ }
+ 
+
+/* background color for now to check text */
+ h1 {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 1px 4px 2px #2c2c2c;
+    text-transform: uppercase;
+}
+h2 {
+    font-family:Satisfy;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 18px;
+    
+}
+
+h3 {
+    font-family: Roboto;
+    color:#2c2c2c;
+    font-size: 16px;
+}
+
+p{
+    font-family:IBM Plex Mono;
+    font-size: 12px;
+}
