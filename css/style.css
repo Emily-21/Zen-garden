@@ -2,43 +2,157 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-h2 {
-    background: url(../img/zen.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
+
+*{
+    margin: 0px;
+    padding:0px;
 }
+
+
 
 header {
     text-align: center;
     background-image: url("/img/huntington.png");
-    /* background-size: 1200px;
-    margin: 0px; */
+    margin: 0px;
+    padding: 40px;
+    
  }
  
 
-/* background color for now to check text */
  h1 {
     font-family: Roboto;
     color: #ffffff;
-    font-size: 30px;
-    text-shadow: 1px 4px 2px #2c2c2c;
+    font-size: 34px;
+    text-shadow: 1px 4px 2px #181818;
     text-transform: uppercase;
+    margin: 10px;
+    padding: 20px;
 }
+
 h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
     font-family:Satisfy;
     font-style: italic;
     color: #ffffff;
     font-size: 18px;
-    
+    margin: 0px;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-family: Roboto;
-    color:#2c2c2c;
+    color:#1d1d1d;
     font-size: 16px;
 }
 
-p{
+p {
     font-family:IBM Plex Mono;
     font-size: 12px;
+    color:#4b4949;
+    /* margin:0px;
+    padding:10px; */ 
 }
+
+p a {
+    text-decoration: none;
+    color: #234C4B;
+}
+/* a:hover{ */
+    /* text-decoration: underline; */
+/* } */
+
+.explanation,.summary, .preamble {
+    margin: 0px; 
+    padding:10px 50px; 
+    background-color: #f5f4f4;
+
+}
+
+.explanation p,.summary p, .preamble p, .requirements p {
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.participation, .benefits {
+    background-image: url("/img/bamboo.png");
+    background-color: #769D7A;
+    margin: 0px; 
+    padding:10px 50px;
+} 
+
+
+.participation p, .benefits p {
+    color:#f5f4f4
+}
+
+.requirements p, .requirements h3{
+    margin: 0px; 
+    padding:10px 50px;
+}
+
+p[role=contentinfo]{
+    background-color: #769D7A; 
+    padding: 40px 50px;
+    font-family: Roboto;
+    font-size:14px ;
+    color: #777777;
+    text-align: center;
+    
+}
+
+p[role=contentinfo] a{
+    font-family: Satisfy;
+    color:#f5f4f4;
+    font-size:26px;
+}
+footer {
+    background-color: #234C4B;
+    text-align: center;
+   }
+ i {
+     color: #ffffff;
+     padding:15px;
+ }
+
+.design-selection{
+    font-family:Roboto;
+    font-size: 12px;
+    font-weight: 900;
+    background-color:#D6E3D6;
+}
+.design-name{
+    
+    font-size: 14px;
+    color:#1d1d1d;
+    text-decoration: none;
+}
+.designer-name{
+    font-family:IBM Plex Mono;
+    font-size: 12px;
+    color:#777777;
+    text-decoration: none;
+}
+ .design-archives{
+    background-color:#D6E3D6;
+
+}
+ .design-archives a{
+    font-family:IBM Plex Mono;
+    font-size: 12px;
+    color:#777777;
+    text-decoration: none;
+ }
+ .zen-resources{
+    background-image: url("/img/bamboo.png");
+    background-color: #769D7A;
+ }
+ .zen-resources a{
+    font-family:IBM Plex Mono;
+    font-size: 12px;
+    color:#234C4B;
+    text-decoration: none;
+ }
+
+ 
