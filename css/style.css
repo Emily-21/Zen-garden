@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
-
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     margin: 0px;
@@ -21,6 +21,7 @@ header {
 
  h1 {
     font-family: Roboto;
+    font-weight: 300;
     color: #ffffff;
     font-size: 4.5vw;
     text-shadow: 1px 4px 2px #181818;
@@ -43,6 +44,7 @@ h2 {
 
 h3 {
     font-family: Roboto;
+    font-weight: normal;
     color:#1d1d1d;
     font-size: 2.4vh;
 }
@@ -57,9 +59,6 @@ p a {
     text-decoration: none;
     color: #234C4B;
 }
-/* a:hover{ */
-    /* text-decoration: underline; */
-/* } */
 
 .explanation,.summary, .preamble {
     margin: 0px; 
@@ -67,11 +66,14 @@ p a {
     background-color: #f5f4f4;
 
 }
-
+#zen-summary a:hover{
+    text-decoration: underline;
+    }
 .explanation p,.summary p, .preamble p, .requirements p {
     margin: 0px;
     padding: 1vh 0vh;
 }
+
 
 .participation, .benefits {
     background-image: url("/img/bamboo.png");
@@ -94,6 +96,7 @@ p[role=contentinfo]{
     background-color: #769D7A; 
     padding: 5.5vh 6vw;
     font-family: Roboto;
+    font-weight: normal;
     font-size:2.2vh;
     color: #777777;
     text-align: center;
@@ -105,6 +108,11 @@ p[role=contentinfo] a{
     color:#f5f4f4;
     font-size:26px;
 }
+
+p[role=contentinfo] a:hover{
+    text-decoration: underline;
+    }
+
 footer {
     background-color: #234C4B;
     text-align: center;
@@ -113,12 +121,17 @@ footer {
      color: #ffffff;
      padding:2.5vh;
  }
+
+ i:hover{
+     color: darkgray;
+ }
  .sidebar h3{
     display: none;
 }
 
 .design-selection{
     font-family:Roboto;
+    font-weight: bold;
     font-size: 1.8vh;
     background-color:#D6E3D6;
     columns:2 auto;
@@ -140,6 +153,7 @@ list-style: none;
 .design-name{
     
     font-size: 2.2vh;
+    font-weight: normal;
     color:#1d1d1d;
     text-decoration: none;
 
