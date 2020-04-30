@@ -14,7 +14,7 @@ header {
     text-align: center;
     background-image: url("/img/huntington.png");
     margin: 0px;
-    padding: 40px;
+    padding: 5.5vw;
     
  }
  
@@ -22,11 +22,11 @@ header {
  h1 {
     font-family: Roboto;
     color: #ffffff;
-    font-size: 34px;
+    font-size: 4.5vw;
     text-shadow: 1px 4px 2px #181818;
     text-transform: uppercase;
-    margin: 10px;
-    padding: 20px;
+    margin: 2vh;
+    padding: 4vh;
 }
 
 h2 {
@@ -36,23 +36,21 @@ h2 {
     font-family:Satisfy;
     font-style: italic;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 2.6vh;
     margin: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 2vh;
 }
 
 h3 {
     font-family: Roboto;
     color:#1d1d1d;
-    font-size: 16px;
+    font-size: 2.4vh;
 }
 
 p {
     font-family:IBM Plex Mono;
-    font-size: 12px;
+    font-size: 1.8vh;
     color:#4b4949;
-    /* margin:0px;
-    padding:10px; */ 
 }
 
 p a {
@@ -65,21 +63,21 @@ p a {
 
 .explanation,.summary, .preamble {
     margin: 0px; 
-    padding:10px 50px; 
+    padding:2vh 6vw; 
     background-color: #f5f4f4;
 
 }
 
 .explanation p,.summary p, .preamble p, .requirements p {
     margin: 0px;
-    padding: 10px 0px;
+    padding: 1vh 0vh;
 }
 
 .participation, .benefits {
     background-image: url("/img/bamboo.png");
     background-color: #769D7A;
     margin: 0px; 
-    padding:10px 50px;
+    padding:2vh 6vw;
 } 
 
 
@@ -89,14 +87,14 @@ p a {
 
 .requirements p, .requirements h3{
     margin: 0px; 
-    padding:10px 50px;
+    padding:2vh 6vw;
 }
 
 p[role=contentinfo]{
     background-color: #769D7A; 
-    padding: 40px 50px;
+    padding: 5.5vh 6vw;
     font-family: Roboto;
-    font-size:14px ;
+    font-size:2.2vh;
     color: #777777;
     text-align: center;
     
@@ -113,46 +111,75 @@ footer {
    }
  i {
      color: #ffffff;
-     padding:15px;
+     padding:2.5vh;
  }
+ .sidebar h3{
+    display: none;
+}
 
 .design-selection{
     font-family:Roboto;
-    font-size: 12px;
-    font-weight: 900;
+    font-size: 1.8vh;
     background-color:#D6E3D6;
+    columns:2 auto;
+    column-gap: 0px;
+    text-align: center;
+ } 
+ 
+.design-selection ul {
+list-style: none;
 }
+.design-selection li{
+    padding:20px;
+    border-bottom: 1px solid #bdbbbb; 
+}
+
+ .design-selection li:nth-child(odd){
+    order: 2;
+} 
 .design-name{
     
-    font-size: 14px;
+    font-size: 2.2vh;
     color:#1d1d1d;
     text-decoration: none;
+
 }
 .designer-name{
     font-family:IBM Plex Mono;
-    font-size: 12px;
+    font-size: 1.8vh;
     color:#777777;
     text-decoration: none;
 }
  .design-archives{
     background-color:#D6E3D6;
+    padding: 20px;
+    columns:2 auto;
+    text-align: center;
 
+}
+.design-archives ul{
+    list-style: none;
 }
  .design-archives a{
     font-family:IBM Plex Mono;
-    font-size: 12px;
+    font-size: 1.8vh;
     color:#777777;
     text-decoration: none;
  }
  .zen-resources{
     background-image: url("/img/bamboo.png");
     background-color: #769D7A;
+    padding: 10px 20px;
+    columns:2 auto;
+    text-align: center;
  }
  .zen-resources a{
     font-family:IBM Plex Mono;
-    font-size: 12px;
+    font-size: 1.8vh;
     color:#234C4B;
     text-decoration: none;
  }
-
+.zen-resources ul{
+    list-style: none;
+}
  
