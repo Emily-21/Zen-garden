@@ -4,7 +4,9 @@
 [x] create table for final section
 [x] Hide the H3's from table 
 [x] bold the 'by's in table
-[ ] sort out pixel sizing/swap for em
-[ ] introduce media queries
+[x] sort out pixel sizing/swap for em
+[x] introduce media queries
 [ ] re order items in the table
-[ ] tidy up code!
+[x] tidy up code!
+
+The main problem now is the table, I've bodged a solution but will rectify soon enough.
